@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -18,17 +16,26 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Branch naming and Commit messages
 
-To learn more about Next.js, take a look at the following resources:
+### Branch naming:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For the sake of consistency and transparency of the work done, branches are to be called like that:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```<type>/some_description```
 
-## Deploy on Vercel
+#### Meaning:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```<type>``` - type of the work [feature, bugfix, hotfix]. These are the most frequent types of work as of now. This list can be reiterated in the future, if needed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```some_description``` - some brief description of what this changes is to implement
+
+### Commit messages:
+
+To be consistent with branch naming conventions, commit messages should follow similar rules.
+
+The commit message should follow this pattern:
+
+```<type>:some_description```
+
+You can check out the ```commitlint.config.js``` file at the root of the project to get acquainted with all possible types
