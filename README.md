@@ -22,13 +22,13 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 For the sake of consistency and transparency of the work done, branches are to be called like that:
 
-```<type>/some_description```
+`<type>/some_description`
 
 #### Meaning:
 
-```<type>``` - type of the work [feature, bugfix, hotfix]. These are the most frequent types of work as of now. This list can be reiterated in the future, if needed.
+`<type>` - type of the work [feature, bugfix, hotfix]. These are the most frequent types of work as of now. This list can be reiterated in the future, if needed.
 
-```some_description``` - some brief description of what this changes is to implement
+`some_description` - some brief description of what this changes is to implement
 
 ### Commit messages:
 
@@ -36,6 +36,6 @@ To be consistent with branch naming conventions, commit messages should follow s
 
 The commit message should follow this pattern:
 
-```<type>:some_description```
+`<type>:some_description`
 
-You can check out the ```commitlint.config.js``` file at the root of the project to get acquainted with all possible types
+You can check out the `commitlint.config.js` file at the root of the project to get acquainted with all possible types
