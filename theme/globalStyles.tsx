@@ -13,6 +13,7 @@ const MainGlobalStyles = createGlobalStyle<{ baseUrl?: string }>`
   ${reset}
 
   html {
+    font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
     height: 100%;
   }
@@ -39,6 +40,11 @@ export const GlobalStyles = () => (
   <>
     <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap"
+        rel="stylesheet"
+      />
     </Head>
     <MainGlobalStyles />
   </>
