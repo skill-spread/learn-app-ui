@@ -1,6 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styled from 'styled-components'
+import Image from 'next/image'
+
+import UnderConstructionImage from '../assets/under-construction.svg'
 
 const Container = styled.div`
   padding: 0 2rem;
@@ -11,9 +14,15 @@ const Main = styled.main`
   padding: 4rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+`
+
+const Title = styled.h1`
+  color: #544af4;
+  font-weight: 700;
+  font-size: 45px;
+  margin-right: 50px;
 `
 
 const Home: NextPage = () => {
@@ -25,7 +34,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Main>Hello!</Main>
+      <Main>
+        <Title>Web site is building...</Title>
+        <Image
+          src={UnderConstructionImage}
+          alt="under construction"
+          width="500px"
+          height="500px"
+        />
+      </Main>
     </Container>
   )
 }
