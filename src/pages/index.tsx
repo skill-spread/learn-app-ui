@@ -3,7 +3,7 @@ import Head from 'next/head'
 import styled from 'styled-components'
 import Image from 'next/image'
 
-import UnderConstructionImage from '../assets/under-construction.svg'
+import UnderConstructionImage from '@public/under-construction.svg'
 
 const Container = styled.div`
   padding: 0 2rem;
